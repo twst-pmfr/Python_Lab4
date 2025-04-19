@@ -4,7 +4,7 @@ num = random.randint(1,101)
 user = int(input('Напишите число: '))
 count = 1
 current_date = datetime.now()
-for i in range(3):
+for i in range(num):
     if user == num:
         print('Вы правильно угадали число', num, '.', 'Попытки: ', count, '.', 'Время', current_date)
         break
